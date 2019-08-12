@@ -1,6 +1,6 @@
 console.log("js is loaded");
 
-let firstArray = ["this", "is", "first", "array"];
+let firstArray = ["this", "is", "our", "first", "array"];
 let x = firstArray[0];
 let y = firstArray[1];
 
@@ -16,7 +16,7 @@ for (i = 0; i < firstArray.length; i++) {
   sentence += " " + firstArray[i];
 }
 
-document.getElementById("test").innerHTML = sentence;
+document.getElementById("test").innerHTML = sentence + "!";
 
 var proto = {
   greeting: "Hi!",
@@ -28,4 +28,4 @@ var proto = {
 // console.log(proto.func());
 
 // console.log(proto);
-console.log(proto.greeting);
+// console.log(proto.greeting);
